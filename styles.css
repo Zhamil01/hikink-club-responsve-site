@@ -1,0 +1,201 @@
+body {
+    font-size: 16px;
+    background-color:beige;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    background-image: url("http://wallup.net/wp-content/uploads/2016/01/312042-nature-landscape-sunset-Matterhorn-Alps-mountain-hiking-snowy_peak-clouds-sky-Switzerland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.welcome-page {
+    margin-top: 150px;
+    color: #f5f7fc;
+}
+
+/** Navigation**/ 
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {    
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9999ff;
+    padding-left: 25px;
+    padding-top: 10px;
+
+}
+
+
+.nav li {
+   
+   display: inline;
+   font-size: 1.25rem;
+   font-weight: bolder;
+   text-decoration: underline;
+   margin: auto 30px;
+   
+}
+    
+
+  a {
+     color: #ff794d;
+}
+ 
+ a:hover {
+     color: #809fff;
+ }
+
+ /** main **/
+
+ .btn-join {
+     background-color: #ff794d;
+     border-radius: 10px;
+     border-color: 2px solid #809fff;
+     color: black;
+     font-size: 1.25rem;
+
+ }
+
+ .btn-join:hover {
+     background-color: #86bfda;
+ }
+
+
+ .about-container {
+     text-align: center;
+     font-size: 1.25rem;
+     border-bottom: 2px solid #ff794d;
+     padding-bottom: 75px;
+ }
+
+ /** Trails**/
+
+ #trails {
+     text-align: center;
+     border-bottom: 2px solid #ff794d;
+     margin-top: 50px;
+ }
+
+.trail img {
+    height: 400px;
+    width: 400px;
+}
+
+.trails-container {
+    height: auto;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 75px;
+}
+    
+
+
+.trail {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto ;
+}
+
+.lenin-peak {
+    flex-direction: row-reverse;
+}
+
+span {
+    color: crimson;
+}
+
+.price-btn {
+    background-color: #ff794d;
+    border-radius: 5px;
+    border-color: 2px solid #809fff;
+    color: black;
+}
+
+.price-btn:hover {
+    background-color: #86bfda;
+}
+
+
+/**Team-comtainer**/
+
+#team {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #ff794d;
+    padding-bottom: 75px;
+}
+
+.meam-member {
+    line-height: 5px;
+    font-weight: bolder;
+    
+
+}
+
+.meam-member > img {
+    height: 300px;
+    width: 300px;
+}
+
+/**join bottom**/
+
+.join-container {
+    text-align: center;
+    padding-top: 75px;
+    background-color:teal;
+}
+
+.submit {
+    background-color: #ff794d;
+}
+.submit:hover {
+    background-color: #809fff;
+}
+
+.privacy {
+    font-family: cursive;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+@media  screen and (max-width: 1007px) {
+    .trails-container {
+        max-width: 750px;
+        
+    }
+
+    .trail {
+        display: block;
+        margin: auto 10px;
+    }
+    .team-container {
+        display: block;
+    }
+        
+}
+
